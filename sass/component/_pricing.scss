@@ -1,0 +1,204 @@
+@media (max-width: 576px) {
+    #pricing{
+        margin-bottom: 2500px !important;
+    }
+    .pricing-bottom{
+        margin: 0 auto !important;
+    }
+}
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (min-width: 576px)and (max-width: 767px) {
+    #pricing{
+        margin-bottom: 2500px !important;
+    }
+    .pricing-bottom{
+        margin: 0 auto !important;
+        width: 500px !important;
+    }
+}
+
+@media (min-width: 767px)and (max-width:991.98px){
+    #pricing{
+        margin-bottom: 1150px !important;
+    }
+    .pricing-bottom{
+        margin: 0 auto !important;
+        // width: 600px !important;
+    }
+}
+
+#pricing{
+    position: relative;
+    margin-top: 140px;
+    background: url(../image/pricing-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:0px 0px 235px 0px;
+    margin-bottom: 800px;
+    .pricing-head{
+        width: 60%;
+        margin: 0 auto;
+        padding: 80px 0;
+        h2{
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            color: rgb(255, 255, 255);
+        }
+        p{
+            color: rgb(255, 255, 255);
+            font-size: 15px;
+            line-height: 25px;
+
+        }
+    }
+    .pricing-bottom{
+        position: absolute;
+        margin: 0 auto;
+        max-width: 1320px;
+        margin-bottom: 100px;
+        .pricing-item{
+            .pricing-item-2{
+                position: relative;
+                background-color: #fff;
+                text-align: center;
+                padding: 50px 50px 30px 50px;
+                position: relative;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                border: 0;
+                border-radius: 0px;
+                -webkit-border-radius: 0px;
+                -moz-border-radius: 0px;
+                -ms-border-radius: 0px;
+                -o-border-radius: 0px;
+                .card-title{
+                    text-transform: uppercase;
+                    font-size: 17px;
+                    font-weight: 700;
+                    color: #1e1e1e;
+                    letter-spacing: 0.5px;
+                    margin-bottom: 45px;
+                }
+                .defren-bg{
+                    background: linear-gradient(145deg, rgba(114, 2, 187, 1) 0%, rgba(50, 100, 245, 1) 100%);
+                }
+                .card-subtitle{
+                    background-color: #00bcd4;
+                    width: 100%;
+                    padding: 30px 0px;
+                    margin-bottom: 35px;
+                    h6{
+                        font-size: 32px;
+                        color: #fff;
+                        font-weight: 900;
+                        letter-spacing: 0.5px;
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                    }
+                    span{
+                        display: inline-block;
+                        color: #fff;
+                        text-transform: uppercase;
+                        font-size: 14px;
+                        font-weight: 700;
+                    }
+                }
+                .card-text{
+                    margin-bottom: 0px;
+                    font-size: 14px;
+                    color: #6a6a6a;
+                    line-height: 25px;
+                }
+                .dev{
+                    width: 100%;
+                    height: 1px;
+                    background-color: #eee;
+                    margin: 35px 0px 30px 0px;
+                }
+                .list-group-item{
+                    i{
+                        font-size: 20px;
+                        font-weight: 900;
+                        margin-right: 8px;
+                        color: #491bb1;
+                    }
+                    display: inline-block;
+                    margin-bottom: 20px;
+                    font-size: 16px;
+                    color: #6a6a6a;
+                    border: 0px;
+                }
+                .card-button{
+                    a.btnprimary-other{
+                        background: rgb(114, 2, 187);
+                        background: linear-gradient(145deg, rgba(114, 2, 187, 1) 0%, rgba(50, 100, 245, 1) 100%);
+                        position: absolute;
+                        transform: translate(-50%);
+                        outline: none;
+                        cursor: pointer;
+                        display: inline-block;
+                        height: 50px;
+                        line-height: 50px;
+                        padding: 0px 25px;
+                        border: none;
+                        margin-left: 10px;
+                        color: #fff;
+                        text-transform: uppercase;
+                        font-size: 15px;
+                        font-weight: 500;
+                        letter-spacing: 0.5px;
+                        transition: all 0.5s;
+                        border-radius: 0px;
+                        -webkit-border-radius: 0px;
+                        -moz-border-radius: 0px;
+                        -ms-border-radius: 0px;
+                        -o-border-radius: 0px;
+                        -webkit-transform: translate(-50%);
+                        -moz-transform: translate(-50%);
+                        -ms-transform: translate(-50%);
+                        -o-transform: translate(-50%);
+                        &:hover{
+                            background: rgb(114, 2, 187);
+                            background: linear-gradient(145deg, rgba(50, 100, 245, 1) 0%, rgba(114, 2, 187, 1) 100%);
+                        }
+}
+                    a.btnprimary{
+                        position: absolute;
+                        transform: translate(-50%);
+                        outline: none;
+                        cursor: pointer;
+                        display: inline-block;
+                        height: 50px;
+                        line-height: 50px;
+                        padding: 0px 25px;
+                        border: none;
+                        margin-left: 10px;
+                        background-color: #00bcd4;
+                        color: #fff;
+                        text-transform: uppercase;
+                        font-size: 15px;
+                        font-weight: 500;
+                        letter-spacing: 0.5px;
+                        transition: all 0.5s;
+                        border-radius: 0px;
+                        -webkit-border-radius: 0px;
+                        -moz-border-radius: 0px;
+                        -ms-border-radius: 0px;
+                        -o-border-radius: 0px;
+                        -webkit-transform: translate(-50%);
+                        -moz-transform: translate(-50%);
+                        -ms-transform: translate(-50%);
+                        -o-transform: translate(-50%);
+                        &:hover{
+                            background-color: #00a4b9;
+                        }
+}
+           
+                }
+}
+        }
+    }
+}

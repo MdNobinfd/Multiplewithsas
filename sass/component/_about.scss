@@ -1,0 +1,106 @@
+#about-us{
+    padding: 140px 0px;
+    background-color: #f7f7f7;
+    .about-us{
+        .about-us-left{
+            img{
+                width: 100%;
+            }
+        }
+        .about-us-right{
+            .about-right-top{
+                h5{
+                    color: #00bcd4;
+                    font-size: 15px;
+                    font-weight: 500;
+                    letter-spacing: 0.5px;
+                    display: inline-block;
+                    margin-top: 0px;
+                    text-transform: capitalize;
+                }
+                h2{
+                    color: #1e1e1e;
+                    font-size: 32px;
+                    font-weight: 700;
+                    letter-spacing: 0.5px;
+                    margin-top: 10px;
+                    margin-bottom: 15px;
+                    text-transform: capitalize;
+                }
+                p{
+                    margin-bottom: 0px;
+                    font-size: 14px;
+                    color: #6a6a6a;
+                    line-height: 25px;
+                    font-size: 15px;
+                    letter-spacing: 1px;
+                    text-transform: capitalize;
+                }
+            }
+        }
+        .about-right-muddle{
+            margin-bottom: 40px;
+            border-bottom: 3px solid #eee;
+            padding-bottom: 50px;
+        }
+        .about-right-bottom{
+            .nav-pills .nav-link{
+                font-size: 18px;
+                color: #1e1e1e;
+                letter-spacing: 0.5px;
+                font-weight: 700;
+                transition: all 0.3s;
+                margin-right: 40px;
+                padding: 0px;
+                background-color: transparent;
+                &:focus{
+                    color:#00bcd4;
+                }
+                &.active{
+                    color: #00bcd4;
+                }
+              }
+        }
+    }
+}
+#our-team{
+    margin-top: 140px;
+    .our-team{
+        .our-team-bottom{
+            .team-item{
+                cursor: pointer;
+                margin-bottom: 30px;
+                &:hover{
+                    opacity: 0.75;
+                }
+                img{
+                    width: 100%;
+                }
+                .down-content{
+                    background-color: #f7f7f7;
+                    text-align: center;
+                    padding: 30px;
+                    margin-bottom: 30px;
+                    h4{
+                        font-size: 19px;
+                        font-weight: 700;
+                        color: #1e1e1e;
+                        letter-spacing: 0.5px;
+                        margin-bottom: 0px;
+                    }
+                    p{
+                        display: inline-block;
+                        margin-top: 8px;
+                        font-size: 15px;
+                        color: #00bcd4;
+                    }
+                }
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+}
+        }
+    }
+}

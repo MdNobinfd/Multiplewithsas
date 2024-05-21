@@ -1,0 +1,31 @@
+#about-banner{
+    background-image: url(../image/pricing-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 230px 0px 180px 0px;
+    .about-banner{
+        h1{
+            color: #fff;
+            font-size: 44px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            margin-bottom: 20px;
+        }
+        .for-link{
+            p{
+                a{
+                    color: #fff;
+                    font-size: 15px;
+                }
+                span{
+                    color: #fff;
+                    opacity: 0.75;
+                    margin-left: 5px;
+                }
+            }
+
+        }
+    }
+}

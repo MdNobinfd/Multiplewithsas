@@ -1,0 +1,70 @@
+#Services{
+    margin-top: 140px;
+    .service{
+        .service-top{
+            margin-bottom: 80px;
+            h4{
+                color: rgb(0, 188, 212);
+                font-size: 15px;
+                font-weight: 500;
+                letter-spacing: 0.5px;
+                display: inline-block;
+                margin-top: 0px;
+            }
+            h2{
+                color: rgb(30, 30, 30);
+                font-size: 32px;
+                font-weight: 700;
+                letter-spacing: 0.5px;
+                margin-top: 10px;
+                margin-bottom: 15px;
+            }
+            p{
+                margin-bottom: 0px;
+                font-size: 18px;
+                color: rgb(106, 106, 106);
+                line-height: 25px;
+            }
+        }
+    }
+    .service-buttom{
+        .card{
+            background-color: rgb(247, 247, 247);
+            border-radius: 5px;
+            padding: 50px 40px;
+            text-align: center;
+            margin-bottom: 30px;
+            box-shadow:  -5px 5px 10px #a6a6a6,
+            5px -5px 10px #ffffff;
+            border: 0;
+            i{
+                color: rgb(255, 255, 255);
+                background-color: rgb(0, 188, 212);
+                display: inline-block;
+                width: 100px;
+                height: 100px;
+                line-height: 100px;
+                text-align: center;
+                border-radius: 50%;
+                font-size: 32px;
+                margin: 0 auto;
+            }
+            .card-title{
+                margin-top: 35px;
+                font-size: 19px;
+                color: rgb(30, 30, 30);
+                text-transform: capitalize;
+                font-weight: 500;
+                letter-spacing: 0.5px;
+                margin-bottom: 30px;
+            }
+            .card-text{
+                margin-bottom: 0px;
+                font-size: 14px;
+                color: rgb(106, 106, 106);
+                line-height: 25px;
+            }
+        }
+
+    }
+}
